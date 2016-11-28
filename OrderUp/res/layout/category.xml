@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000" >
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+ >
+
+        
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_new" />
+
+    </LinearLayout>
+    
+    <ListView
+       android:id="@+id/listCategory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" 
+        android:layout_weight="1.0"
+        android:textSize="40sp"
+        android:divider="@color/white"
+        android:dividerHeight="1dp">
+        
+    </ListView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:orientation="horizontal"
+            
+ >
+        <Button
+        android:id="@+id/btnSendOrderC"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Send" />
+        <Button
+        android:id="@+id/btnCheckOrderC"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Change" />
+        <Button
+        android:id="@+id/btnCancelOrderC"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="Cancel" />
+        </LinearLayout>
+
+   
+    
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OrderUp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="categories">
+        <item >Coffee</item>
+        <item >Soft drinks</item>
+        <item >Beer</item>
+        <item >Liquor</item>
+        <item >Wine</item>
+        <item >Cocktails</item>
+    </string-array>
+    
+    <string-array name="coffee">
+        <item >Nescafe</item>
+        <item >Macchiato</item>
+        <item >Cappuccino</item>
+    </string-array>
+    
+    <string-array name="softDrinks">
+        <item >Coca Cola</item>
+        <item >Sprite</item>
+        <item >Prigat</item>
+    </string-array>
+    
+    <string-array name="beer">
+        <item >Heineken</item>
+        <item >Zlaten Dab</item>
+    </string-array>
+    
+    <string-array name="wine">
+        <item >Vranec</item>
+        <item >Alexandria</item>
+    </string-array>
+    <string-array name="cocktails">
+        <item >Mojito</item>
+        <item >Sex on the beach</item>
+        <item >Margarita</item>
+    </string-array>
+</resources>
